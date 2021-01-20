@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import static org.apache.camel.Exchange.EXCEPTION_CAUGHT;
 import static org.apache.camel.LoggingLevel.WARN;
 
-@Component
 public class ExceptionHandlingRoute extends RouteBuilder {
 
     @Override

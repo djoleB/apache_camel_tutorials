@@ -4,7 +4,6 @@ import com.georgedoestechstuff.camel.demo.marshall_unmarshall.Address;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
-@Component
 public class BeanValidationRoute extends RouteBuilder {
 
     @Override
